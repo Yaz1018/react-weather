@@ -13,7 +13,7 @@ var Weatherform = React.createClass({
   render: function () {
     return (
       <form onSubmit={this.onFormSubmit}>
-        <input ref="message" className="medium-6 large-4 small-centered"/><br/><br/>
+        <input style={{height:'40px',marginBottom:'10px'}}ref="message" className="medium-12 large-12 small-centered"/>
         <button className="button expanded hollow">Get Weather</button>
       </form>
     )
