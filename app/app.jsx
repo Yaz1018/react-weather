@@ -10,7 +10,7 @@ var Examples = require('Examples');
 require('style!css!sass!applicationStyles')
 
 //load foundation
-require('style!css!foundation-sites/dist/foundation.min.css')
+//require('style!css!node_modules/foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
 ReactDOM.render(
